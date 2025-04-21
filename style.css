@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #271664;
+    --secondary-color: #000000;
+    --background-color: #121212;
+    --text-color: s#2c2c2c;
+    --accent-color: #1c0a31;
+    --cor-frente: #b87bdb;
+    --preto: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #ffffff, #ffffff);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.menu-label, .nav-links a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ffffff, #ffffff);
+    color: var(--background-color);
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-label:hover, .nav-links a:hover {
+    background: linear-gradient(45deg, #ffffff, #ac3838);
+}
+
+.menu-disciplinas {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-disciplinas a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu-disciplinas a:hover {
+    background: var(--accent-color);
+    color: var(--background-color);
+    border-radius: 5px;
+}
+
+.content {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 42px;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+#conteudo {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--preto);
+    color: var(--cor-frente);
+    width: 100%;
+    text-align: center;
+}
