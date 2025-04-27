@@ -1,8 +1,8 @@
 :root {
     --primary-color: #243d61;
-    --secondary-color: t#1685cf;
+    --secondary-color: #547792;
     --background-color: #94B4C1;
-    --text-color: #DFD0B8;
+    --text-color: #94B4C1;
     --accent-color: #ffffff;
 }
 
@@ -13,7 +13,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, #1A1A2E, #16213E);
+    background: linear-gradient(180deg, #243d61, #547792);
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -34,7 +34,7 @@ header {
     font-size: 25px;
     font-weight: 600;
     padding: 10px 20px;
-    background: linear-gradient(45deg, 3, #B9B28A);
+    background: linear-gradient(45deg, 3, #4363bb);
     color: var(--background-color);
     border-radius: 15px;
     transition: 0.5s;
@@ -43,7 +43,7 @@ header {
 }
 
 .menu-label:hover, .nav-links a:hover {
-    background: linear-gradient(45deg,#948979, #B9B28A);
+    background: linear-gradient(45deg,#6059c0, #7b5ac7);
 }
 
 .menu-disciplinas {
