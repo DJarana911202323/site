@@ -1,7 +1,7 @@
 :root {
     --primary-color: #F8F3D9;
     --secondary-color: #EBE5C2;
-    --background-color: #121212;
+    --background-color: #000;
     --text-color: #B9B28A;
     --accent-color: #504B38;
 }
@@ -34,7 +34,7 @@ header {
     font-size: 25px;
     font-weight: 600;
     padding: 10px 20px;
-    background: linear-gradient(45deg, #FFC107, #FF9800);
+    background: linear-gradient(45deg, 3, #B9B28A);
     color: var(--background-color);
     border-radius: 15px;
     transition: 0.5s;
@@ -43,7 +43,7 @@ header {
 }
 
 .menu-label:hover, .nav-links a:hover {
-    background: linear-gradient(45deg, #FFD700, #FFA500);
+    background: linear-gradient(45deg, #504B38, #B9B28A);
 }
 
 .menu-disciplinas {
