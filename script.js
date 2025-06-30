@@ -4,7 +4,7 @@ const temasPorDisciplina = {
   "Matemática": ["Álgebra", "Geometria", "Funções"],
   "Física": ["Cinemática", "Dinâmica", "Ondulatória"],
   "Química": ["Tabelas periódicas", "Ligações químicas", "Reações químicas"]
-};
+}; 
 
 const descricaoTemas = {
   "Fração": "Uma fração representa uma parte de um todo ou uma divisão de quantidades, expressa como dois números separados por uma barra",
